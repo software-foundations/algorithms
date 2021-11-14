@@ -1,4 +1,4 @@
-// O(1)
+// O(n)
 function LinearCost(n) {
 	for (let i = 0; i < n; i ++) {
 		console.log(i)
