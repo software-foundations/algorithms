@@ -1,4 +1,4 @@
-// O(n²)
+// O(n3)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,6 +9,10 @@ void quadratic_cost(int n) {
 
     for (int j = 0; j < n; j++) {
       printf("%d\n", j);
+
+      for (int k = 0; k < n; k++) {
+        printf("%d\n", k);
+      }
     }
   }
 }

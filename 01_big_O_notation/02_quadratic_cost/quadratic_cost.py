@@ -1,7 +1,7 @@
 """O(n²)"""
 
 
-def quadraticCost(n: int) -> None:
+def quadratic_cost(n: int) -> None:
     for i in range(n):
         print(i)
 
@@ -10,4 +10,4 @@ def quadraticCost(n: int) -> None:
 
 
 if __name__ == "__main__":
-    quadraticCost(n=3)
+    quadratic_cost(n=3)
