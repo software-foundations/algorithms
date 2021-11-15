@@ -5,7 +5,7 @@
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-			"shell_cmd": "\"/home/bruno/Documents/dev/software-fundamentals/venv-algorithms/bin/python\" -u \"$file\"",
+			"shell_cmd": "\"/home/bruno/Documents/dev/software-fundamentals/venv-software-fundamentals/bin/python\" -u \"$file\"",
 		},
 
 		{
@@ -44,7 +44,6 @@
 			"shell_cmd": "\"/home/bruno/Documents/dev/software-fundamentals/venv-software-fundamentals/bin/black\" \"$file\" && \"/home/bruno/Documents/dev/software-fundamentals/venv-software-fundamentals/bin/pyflakes\" \"$file\" && \"/home/bruno/Documents/dev/software-fundamentals/venv-software-fundamentals/bin/pylint\" \"$file\" && \"/home/bruno/Documents/dev/software-fundamentals/venv-software-fundamentals/bin/mypy\" \"$file\"",
 
 		},
-
 		{
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "node",
@@ -56,7 +55,7 @@
 			"auto_close": false,
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"focus": true,
-			"name": "terminal C, JS, and Python",
+			"name": "Terminal",
 			"post_window_hooks":
 			[
 				[
@@ -66,8 +65,7 @@
 					}
 				]
 			],
-			"selector": "source.python",
-			// "shell_cmd": "node \"$file\"",
+			"selector": "source.python",			
 			"target": "terminus_open",
 			"timeit": true,
 			"title": "terminal",
