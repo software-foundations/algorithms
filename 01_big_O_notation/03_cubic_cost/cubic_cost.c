@@ -1,9 +1,10 @@
 // O(n3)
 
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-void quadratic_cost(int n) {
+void cubic_cost(int n) {
   for (int i = 0; i < n; i++) {
     printf("\n%d\n", i);
 
@@ -17,8 +18,15 @@ void quadratic_cost(int n) {
   }
 }
 
+void cubic_cost_way_02(int n) {
+  for (int i = 0; i < pow(n, 3); i++) {
+    printf("%d\n", i);
+  }
+}
+
 int main(void) {
-  quadratic_cost(3);
+  cubic_cost(3);
+  cubic_cost_way_02(3);
 
   return 0;
 }
