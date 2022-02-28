@@ -8,4 +8,11 @@ function quadraticCost(n) {
 	}
 }
 
+function quadraticCostWay02(n) {
+	for (let i = 0; i < n ** 2; i++) {
+		console.log(i)
+	}
+}
+
 quadraticCost(3)
+quadraticCostWay02(3)
