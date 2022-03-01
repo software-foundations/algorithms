@@ -21,7 +21,7 @@ void quadratic_cost_way_02(int n) {
 }
 
 int main(void) {
-  // quadratic_cost(3);
+  quadratic_cost(3);
   quadratic_cost_way_02(3);
 
   return 0;
